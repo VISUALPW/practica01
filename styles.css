@@ -1,0 +1,94 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+  }
+   
+  #encabezado{
+  min-width: auto;
+  min-height: 30px;
+  background: rgb(126, 198, 216);
+  }
+  
+  #encabezado ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+  }
+  
+  #encabezado a{
+      color: rgb(176, 100, 199);
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      background: rgb(148, 108, 86);
+      font-size: 30px;
+  }
+  
+  #encabezado a:hover{
+      background-color: rgb(182, 154, 118);
+  }
+  .slider{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite alternate;
+    animation-timing-function: linear;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    
+}
+
+@keyframes slide {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    35%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+ /*Este es el estilo de imágenes y textos de "Nosotros.html*/
+
+ #nosteximg{
+    margin: 10px;  
+    padding: 10px;
+    background: rgb(185, 92, 69);
+}
+/*Este es el estilo de imágenes y textos de "Servicios.html*/
+#servicios{
+    margin: 20px;  
+    padding: 20px;
+    background: rgb(96, 175, 180);
+}
+/*Este es el estilo de imágenes y textos de "Galeria.html*/
+#galeria{
+    margin: 10px;  
+    padding: 10px;
+    background: rgb(114, 96, 180);
+}
+/*Este es el estilo de imágenes y textos de "Contacto.html*/
+#contacto{
+    margin: 10px;  
+    padding: 10px;
+    background: rgb(165, 180, 96);
+    
+}
